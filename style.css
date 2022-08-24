@@ -90,7 +90,7 @@ body{
 /*Glowing Effect for Browse-title*/
 @-webkit-keyframes browse-title {
   from {
-    text-shadow: 0 0 10px #E51A8C, 0 0 20px #E51A8C, 0 0 30px #E51A8C, 0 0 40px #E51A8C;
+    text-shadow: 0 0 10px #E51A8C, 0 0 20px #fff, 0 0 30px #E51A8C, 0 0 40px #E51A8C;
   }
   to {
     text-shadow: 0 0 20px #B2FF14, 0 0 30px #B2FF14, 0 0 40px #B2FF14;
@@ -171,6 +171,17 @@ body{
   font-weight: 700;
   font-size: 48px;
   color: #E51A8C;
+   animation: story-title 1.5s ease-in-out infinite alternate;
+}
+
+/*Glowing Effect for Story-title*/
+@-webkit-keyframes story-title {
+  from {
+    text-shadow: 0 0 10px #B2FF14, 0 0 20px #fff, 0 0 30px #B2FF14, 0 0 40px #B2FF14;
+  }
+  to {
+    text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #E51A8C;
+  }
 }
 
 .story-para{
@@ -240,7 +251,7 @@ body{
 /*Glowing Effect for Thank-header*/
 @-webkit-keyframes thank-header {
   from {
-    text-shadow: 0 0 10px #E51A8C, 0 0 20px #E51A8C, 0 0 30px #E51A8C, 0 0 40px #E51A8C;
+    text-shadow: 0 0 10px #E51A8C, 0 0 20px #fff, 0 0 30px #E51A8C, 0 0 40px #E51A8C;
   }
   to {
     text-shadow: 0 0 20px #B2FF14, 0 0 30px #B2FF14, 0 0 40px #B2FF14;
