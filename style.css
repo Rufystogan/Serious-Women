@@ -9,12 +9,12 @@ body{
 /*custom-font*/
 @font-face {
       font-family: Century Gothic Regular;
-      src: url(font/GOTHIC.ttf);
+      src: url(font/GOTHIC.TTF);
 }
 
 @font-face {
       font-family: Century Gothic Bold;
-      src: url(font/GOTHICB.ttf);
+      src: url(font/GOTHICB.TTF);
 }
 
 @font-face {
