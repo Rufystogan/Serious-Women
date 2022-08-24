@@ -1,0 +1,849 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Century Gothic Regular;
+}
+
+/*custom-font*/
+@font-face {
+      font-family: Century Gothic Regular;
+      src: url(font/GOTHIC.ttf);
+}
+
+@font-face {
+      font-family: Century Gothic Bold;
+      src: url(font/GOTHICB.ttf);
+}
+
+@font-face {
+      font-family: Abuget;
+      src: url(font/Abuget.ttf);
+}
+
+/*Navigation section*/
+#logo{
+  width: 185.29px;
+  height: auto;
+}
+
+.navbar{
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+/* change the link color and add padding for height */
+.navbar .navbar-nav .nav-link {
+    font-family: Century Gothic Bold;
+    color: white;
+    font-size: 100%;
+    padding: 10px 50px;
+}
+
+/* change the color of active or hovered links */
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+    font-family: Century Gothic Bold;
+    color: #000000;
+    font-size: 100%;
+    letter-spacing: 0.05em;
+    background-color: #B2FF14; /* add background-color to active links */
+    border-radius: 5px;
+}
+
+.navbar-expand-lg .navbar-toggler .navbar-toggler-icon {
+    background-image: url(img/Icon-01.png);
+}
+
+/*Jumbrotron Section*/
+.jumbotron{
+  background-color: #B2FF14;
+  height: 785.65px;
+}
+
+.jumbo-container{
+  padding-top: 30px;
+}
+
+#scroll-down{
+  height: 345px;
+  width: auto;
+}
+
+/*Browse section*/
+.browse{
+  margin-top: -35px;
+  background-color: #E51A8C;
+  background-size: cover;
+  height: 666px;
+}
+
+.browse-title{
+  padding-top: 60px;
+  font-family: Century Gothic Bold;
+  color: #B2FF14;
+  font-size: 50pt;
+  animation: browse-title 1.5s ease-in-out infinite alternate;
+}
+
+/*Glowing Effect for Browse-title*/
+@-webkit-keyframes browse-title {
+  from {
+    text-shadow: 0 0 10px #E51A8C, 0 0 20px #E51A8C, 0 0 30px #E51A8C, 0 0 40px #E51A8C;
+  }
+  to {
+    text-shadow: 0 0 20px #B2FF14, 0 0 30px #B2FF14, 0 0 40px #B2FF14;
+  }
+}
+
+.p-browse{
+  font-size: 18pt;
+  color: #ffffff;
+}
+
+.beauty-row, .wellness-row, .entertainment-row, .lifestyle-row{
+  margin-top: -10px;
+}
+
+.beauty-button, .wellness-button, .entertainment-button, .lifestyle-button{
+  font-family: Century Gothic Bold;
+  background-color: #B2FF14
+}
+
+
+/*Who Section*/
+.who{
+  background-color: #4BCFCF;
+  background-size: cover;
+  height: 704.12px;
+}
+
+.who-box{
+  padding-top: 50px;
+}
+
+.who-wording{
+  padding-top: 80px;
+}
+
+.who-header{
+  font-family: Century Gothic Bold;
+  background-color: #B2FF14;
+  padding: 4px;
+}
+
+.sub-title{
+  font-family: Abuget;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 62px;
+}
+
+.who-para{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/*Submit story Section*/
+.story{
+  background-color: #000000;
+  background-image: url(img/submitpattern.png);
+  background-size: cover;
+  height: 437.29px;
+  padding-top: 40px;
+}
+
+.story-border{
+  background-color: #000000;
+  border: 4px solid #B2FF14;
+  width: auto;
+  height: 250px;
+}
+
+.story-row{
+  padding-top: 50px;
+}
+
+.story-title{
+  font-family: Century Gothic Bold;
+  font-weight: 700;
+  font-size: 48px;
+  color: #E51A8C;
+}
+
+.story-para{
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 32px;
+ color: #FFFFFF;
+}
+
+.story-submit{
+  background-color: transparent;
+  background-image: url(img/lip.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 180.35px;
+}
+
+/*Cat Section*/
+.cat{
+  background-color: #FFBABA;
+  height: 1087.06px;
+}
+
+.cat-header{
+  font-family: Abuget;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 62px;
+}
+
+.cat-content{
+  padding-top: 100px;
+}
+
+.row3-wording{
+  background-color: #000000;
+  border: 2px solid #E51A8C
+}
+
+.row3-wording p{
+  font-family: Century Gothic Bold;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/*Thank You Section*/
+.thank{
+  background-color: #E51A8C;
+  height: 590.47px;
+}
+
+.thank-content{
+  padding-top: 50px;
+}
+
+.thank-header{
+  font-family: Century Gothic Bold;
+  color: #B2FF14;
+  animation: thank-header 1.5s ease-in-out infinite alternate;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 82px;
+}
+
+/*Glowing Effect for Thank-header*/
+@-webkit-keyframes thank-header {
+  from {
+    text-shadow: 0 0 10px #E51A8C, 0 0 20px #E51A8C, 0 0 30px #E51A8C, 0 0 40px #E51A8C;
+  }
+  to {
+    text-shadow: 0 0 20px #B2FF14, 0 0 30px #B2FF14, 0 0 40px #B2FF14;
+  }
+}
+
+
+
+.thank-wish{
+  font-family: Century Gothic Bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.thank-findUs{
+  font-family: Abuget;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 13px;
+}
+
+.thank-email{
+  font-family: Century Gothic Bold;
+  background-color: #B2FF14;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+address{
+  font-family: Century Gothic Bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/*Footer*/
+.footer{
+  background-color: #000000;
+  height: 222.35px;
+}
+
+.footer-content{
+  padding-top: 50px;
+}
+
+.footer-header{
+  font-family: Century Gothic Bold;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#fbIcon, #igIcon, #ytIcon {
+    color: #FFFFFF;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/*---------------------max-width: 1024px------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+  /*Navigation*/
+  /* change the link color and add padding for height */
+  .navbar .navbar-nav .nav-link {
+    font-family: Century Gothic Bold;
+    color: white;
+    font-size: 80%;
+    padding: 10px 10px;
+  }
+
+  /* change the color of active or hovered links */
+  .navbar .nav-item.active .nav-link,
+  .navbar .nav-item:hover .nav-link {
+    font-family: Century Gothic Bold;
+    color: #000000;
+    font-size: 80%;
+    letter-spacing: 0.02em;
+    background-color: #B2FF14; /* add background-color to active links */
+    border-radius: 5px;
+  }
+
+  /*Browser Section*/
+  .browse{
+  height: 500px;
+  }
+
+  .browse-title{
+    font-size: 60px;
+  }
+
+  .p-browse{
+  font-size: 16pt;
+  }
+
+  .wellness-button, .entertainment-button, .beauty-button, .lifestyle-button{
+    font-size: 80%;
+  }
+
+  /*who section*/
+  .who{
+    height: 480px;
+  }
+
+  .who-box{
+  padding-top: 30px;
+  }
+
+  .who-wording{
+  padding-top: 50px;
+  }
+
+  .sub-title{
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 32px;
+  }
+
+  #overlay{
+    height: 87%;
+    width: auto;
+  }
+
+  .who-para{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  }
+
+  /*Submit story Section*/
+    .story{
+    height: 370.29px;
+  }
+
+  .story-border{
+    width: auto;
+    height: 230px;
+  }
+
+  .story-row{
+    padding-top: 50px;
+  }
+
+  .story-title{
+    font-size: 30px;
+  }
+
+  .story-para{
+   font-size: 18px;
+   line-height: 32px;
+  }
+
+  #click-here{
+    width: 30%;
+    height: auto;
+  }
+
+  .story-submit{
+    background-image: url(img/lip3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 180.35px;
+  }
+
+  /*Cat Section*/
+    .cat{
+    height: 850px;
+  }
+
+  .cat-header{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 32px;
+  }
+
+  .cat-content{
+    padding-top: 50px;
+  }
+
+  .row3-wording p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  #view-more{
+    height: 80%;
+    width: auto;
+  }
+
+    /*Thank You Section*/
+  .thank{
+    height: 520px;
+  }
+
+  .thank-content{
+    padding-top: 40px;
+  }
+
+  .thank-header{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 62px;
+  }
+
+  .thank-wish{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .thank-findUs{
+    font-size: 48px;
+    line-height: 13px;
+  }
+
+  .thank-email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  address{
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 20px;
+  }
+
+  /*Footer*/
+  .footer{
+    background-color: #000000;
+    height: 190.35px;
+  }
+
+  .footer-content{
+    padding-top: 30px;
+  }
+
+}
+
+/*---------------------max-width: 768px------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  /*Jumbotron @ Hero */
+  .jumbotron{
+  height: 710px;
+  }
+
+  /*Browser Section*/
+  .browse{
+  height: 400px;
+  }
+
+  .browse-title{
+    font-size: 40px;
+  }
+
+  .p-browse{
+  font-size: 12pt;
+  }
+
+  .wellness-button, .entertainment-button, .beauty-button, .lifestyle-button{
+    font-size: 60%;
+  }
+
+  /*who section*/
+  .who{
+    height: 380px;
+  }
+
+  .who-box{
+  padding-top: 30px;
+  }
+
+  .who-wording{
+  padding-top: 50px;
+  }
+  .sub-title{
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 32px;
+  }
+
+  .who-para{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  }
+
+  /*Submit story Section*/
+    .story{
+    height: 337.29px;
+  }
+
+  .story-border{
+    width: auto;
+    height: 200px;
+  }
+
+  .story-row{
+    padding-top: 50px;
+  }
+
+  .story-title{
+    font-size: 28px;
+  }
+
+  .story-para{
+   font-size: 12px;
+   line-height: 12px;
+  }
+
+  #click-here{
+    width: 30%;
+    height: auto;
+  }
+
+  #overlay{
+    height: 95%;
+    width: auto;
+  }
+
+  .story-submit{
+    background-image: url(img/lip2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 180.35px;
+  }
+
+  /*Cat Section*/
+    .cat{
+    height: 660px;
+  }
+
+  .cat-header{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 32px;
+  }
+
+  .cat-content{
+    padding-top: 50px;
+  }
+
+  .row3-wording{
+    background-color: #000000;
+    border: 2px solid #E51A8C
+  }
+
+  .row3-wording p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+  }
+
+  #view-more{
+    height: 70%;
+    width: auto;
+  }
+
+  /*Thank You Section*/
+  .thank{
+    height: 410px;
+  }
+
+  .thank-content{
+    padding-top: 35px;
+  }
+
+  .thank-header{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 52px;
+  }
+
+  .thank-wish{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .thank-findUs{
+    font-size: 38px;
+    line-height: 10px;
+  }
+
+  .thank-email{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  address{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+/*Footer*/
+.footer{
+  height: 180.35px;
+}
+
+.footer-content{
+  padding-top: 30px;
+}
+
+.footer-header{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.copyright{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+}
+
+/*---------------------for small device------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+
+  /*Jumbotron @ Hero */
+  .jumbotron{
+  height: 600px;
+  }
+
+  #scroll-down{
+    width: auto;
+    height: 75%;
+  }
+
+  /*Browse section*/
+  .browse{
+    height: 580px;
+  }
+
+  .browse-title{
+    padding-top: 55px;
+    font-size: 23pt;
+  }
+
+  .p-browse{
+    font-size: 8pt;
+  }
+
+  .col1, .col2, .col3, .col4{
+    max-width: 50%;
+  }
+
+  .col3, .col4{
+    padding-top: 15px;
+  }
+
+
+
+  /*who section*/
+  .who{
+    height: 380px;
+  }
+
+  .who-box{
+  padding-top: 30px;
+  }
+
+  .who-wording{
+  padding-top: 10px;
+  }
+
+  .sub-title{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 12px;
+  }
+
+  .who-para{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 10px;
+  }
+
+  #overlay{
+    height: 50%;
+    width: auto;
+  }
+
+  /*Cat Section*/
+    .cat{
+    height: 420px;
+  }
+
+  
+  .cat-row2 .col-sm-4{
+    max-width: 32%;
+  }
+
+  .cat-row3 .col-sm-4{
+    max-width: 35%;
+  }
+
+  .cat-row3 .col-sm-8{
+    max-width: 60%;
+  }
+
+  .cat-row4 .col-sm-4{
+    max-width: 32%;
+  }
+
+  .cat-header{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 12px;
+  }
+
+  .cat-content{
+    padding-top: 50px;
+  }
+
+  .row3-wording p{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+  }
+
+  #view-more{
+    height: 50%;
+    width: auto;
+  }
+
+  /*Thank You Section*/
+  .thank{
+    height: 330px;
+  }
+
+  .thank-content{
+    padding-top: 30px;
+  }
+
+  .thank-row .col-md-6{
+    max-width: 50%;
+  }
+
+  .thank-header{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .thank-wish{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .thank-findUs{
+    font-size: 30px;
+    line-height: 10px;
+  }
+
+  .thank-email{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    max-width: 100%;
+  }
+
+  address{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  /*Footer*/
+  .footer{
+    height: 120.35px;
+  }
+
+  .footer-content{
+    padding-top: 10px;
+  }
+
+  .footer-header{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .copyright{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+}
+
